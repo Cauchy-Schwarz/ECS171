@@ -4,7 +4,9 @@
 #text{
   font-size: 24px;
 }
-
+#text2{
+  font-size: 24px;
+}
 .input_box label {
   display:block;
   width:45%;

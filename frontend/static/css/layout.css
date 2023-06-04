@@ -16,20 +16,25 @@ body {
   height: 10%;
 }
 
-.input_box{
-  background: lightblue;
-  width: 80%;
+main {
+  width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-main {
+.car_classes{
+  position: absolute;
+  left: 80%;
+}
+.input_box{
+  background: lightblue;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .input_box input {

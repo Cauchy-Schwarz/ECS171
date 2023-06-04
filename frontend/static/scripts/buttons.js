@@ -5,8 +5,10 @@ function showPreview(event) {
     let preview = document.getElementById("file-preview");
     let info = document.getElementById("file-info");
     let submitBtn = document.getElementById("submit_btn");
-    let result = document.getElementById("predicted_model");
-    result.style.display = "none";
+    let result1 = document.getElementById("predicted_model1");
+    let result2 = document.getElementById("predicted_model2");
+    result1.style.display = "none";
+    result2.style.display = "none";
     testingPicture = src;
     pictureType = input.files.item(0).type;
     preview.src = src;

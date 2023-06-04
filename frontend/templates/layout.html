@@ -25,6 +25,7 @@
   	    </div>
     </header>
   	<main>
+      <div></div>
       <div class=input_box> 
         <h1 class="header_element" id = "text">Upload a picture</h1>
         <div class="preview">
@@ -37,7 +38,14 @@
           <label for="file-ip-2" id="submit_btn">Submit</label>
           <input type="submit" value="Submit" id="file-ip-2">
         </form>
-        <p id="predicted_model"><strong></strong></p>
+        <p id="predicted_model1"><strong></strong></p>
+        <p id="predicted_model2"><strong></strong></p>
+      </div>
+      <div class=car_classes>
+        <h1 id = "text2">Possible Models</h1>
+        <object data="{{ url_for('static',filename='numbers.txt') }}" width="300" height="200">
+          Not supported
+        </object>
       </div>
   	</main>
   </div> 
