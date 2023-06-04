@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#car_emoji {
+  width: 10%;
+  height: 10%;
+}
+
+.input_box{
+  background: lightblue;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_box input {
+  display:none;
+}
+
+.input_box #submit_btn {
+  display: none;
+}
+.preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
