@@ -1,0 +1,44 @@
+#title{
+  font-size: 36px;
+}
+#text{
+  font-size: 24px;
+}
+#text2{
+  font-size: 24px;
+}
+.input_box label {
+  display:block;
+  width:45%;
+  height:45px;
+  line-height:50px;
+  text-align:center;
+  background:#1172c2;
+
+  color:#fff;
+  font-size:15px;
+  font-family:"Open Sans",sans-serif;
+  text-transform:Uppercase;
+  font-weight:600;
+  border-radius:5px;
+  cursor:pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1172c2;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    margin: 10px;
+}
+
