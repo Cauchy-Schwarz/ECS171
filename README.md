@@ -1,5 +1,5 @@
 # ECS171
-##Demo
+## Demo
 1. Download all files from frontend folder.
 2. Download our effnetLArch and effnetMArch model [here](https://drive.google.com/drive/folders/1xze_Abo72s9FCRjBV22VuelzZN2LqrTe?usp=sharing) into the frontend folder.
 3. Download dependicies
