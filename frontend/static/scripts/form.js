@@ -1,3 +1,5 @@
+// AJAX form request from clicking submit
+// Receives output from backend and displays
 $("#formElem").submit(function(e) {
     e.preventDefault();    
     var formData = new FormData(this);

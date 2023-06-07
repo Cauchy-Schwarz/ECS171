@@ -26,19 +26,4 @@
   margin-bottom: 10px;
 }
 
-button {
-    border-radius: 20px;
-    width: 150px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    color: whitesmoke;
-    background-color: #1172c2;
-    cursor: pointer;
-    transition: 0.3s ease;
-    border: none;
-    margin: 10px;
-}
 
